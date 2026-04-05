@@ -7,7 +7,7 @@ let myDate = new Date()
 // console.log(myDate.toLocaleDateString());
 // console.log(typeof myDate);
 
-// let myBirthDate = new Date (2001, 6, 6)
+// let myBirthDate = new Date (2001, 6, 6) 
 // let myBirthDate = new Date (2001, 6, 6, 1, 30)
 // let myBirthDate = new Date ("2001-07-06") ------  YYYY-MM-DD
 // let myBirthDate = new Date ("07-06-2001") ------ MM-DD-YYYY
