@@ -25,16 +25,20 @@ const newArray = myArray.join();
 // console.log(newArray);
 // console.log(typeof newArray);
 
-// slice, splice
+// splice
 
-console.log("A ", myArray);
+// let arr = [1, 2, 3, 5, 6, 7, 8, 9, 10];
+// arr.splice(3, 0, 4);
+// console.log(arr); ---- add element in an array.
 
-const myn1 = myArray.slice(1, 3)
-console.log(myn1);
+// let arr = [1, 2, 3, 4, 5, 99, 6, 7, 8, 9, 10];
+// arr.splice(5, 1)
+// console.log(arr); ---- remove element in an array.
 
-console.log("B ", myArray);
+// let arr = [1, 2, 3, 4, 99, 6, 7, 8, 9, 10];
+// arr.splice(4, 1, 5);
+// console.log(arr); ---- replace 1 element in an array.
 
-const myn2 = myArray.splice(1, 3)
-console.log(myn2);
-
-console.log("C ", myArray);
+// let arr = [1, 2, 3, 4, 99, 88, 77, 8, 9, 10];
+// arr.splice(4, 3, 5, 6, 7);
+// console.log(arr); ---- replace multiple elements in an array (3 in this case).
